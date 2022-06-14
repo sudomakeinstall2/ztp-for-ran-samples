@@ -17,8 +17,9 @@ spec:
       requests:
         storage: 20Gi
   osImages:
-    - openshiftVersion: "${MINOR}"
-      url: "${RHCOS_ISO}"
-      rootFSUrl: "${RHCOS_ROOTFS}"
+    - openshiftVersion: "4.10"
+      url: "https://rhcos-redirector.apps.art.xq1c.p1.openshiftapps.com/art/storage/releases/rhcos-4.10/410.84.202201251210-0/x86_64/rhcos-410.84.202201251210-0-live.x86_64.iso"
+      rootFSUrl: "https://rhcos-redirector.apps.art.xq1c.p1.openshiftapps.com/art/storage/releases/rhcos-4.10/410.84.202201251210-0/x86_64/rhcos-410.84.202201251210-0-live-rootfs.x86_64.img"
       cpuArchitecture: "x86_64"
-      version: "${VERSION}"
+      version: "410.84.202201251210-0"
+
