@@ -5,7 +5,7 @@
   vars:
     gitops_source_path_site: siteconfig
     gitops_source_path_pgt: policygentemplates
-    gitops_source_repoURL: https://github.com/leo8a/ztp-for-ran-samples
+    gitops_source_repoURL: https://github.com/sudomakeinstall2/ztp-for-ran-samples
     gitops_source_targetRevision: empty-sites
 
   tasks:
