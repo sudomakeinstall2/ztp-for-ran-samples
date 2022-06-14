@@ -3,8 +3,8 @@
   hosts: localhost
 
   vars:
-    gitops_source_path_site: ztp-for-ran-samples/ran-ztp-workflow/automation/day2/siteconfig
-    gitops_source_path_pgt: poztp-for-ran-samples/ran-ztp-workflow/automation/day2/licygentemplates
+    gitops_source_path_site: siteconfig
+    gitops_source_path_pgt: policygentemplates
     gitops_source_repoURL: https://github.com/sudomakeinstall2/ztp-for-ran-samples
     gitops_source_targetRevision: empty-sites
 
