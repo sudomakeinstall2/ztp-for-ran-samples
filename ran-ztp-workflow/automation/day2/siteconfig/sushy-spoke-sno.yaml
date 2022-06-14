@@ -35,7 +35,7 @@ spec:
         bootMACAddress: "aa:aa:aa:cc:cc:01"
         bootMode: "legacy"
         rootDeviceHints:
-          deviceName: "/dev/sda"
+          deviceName: "/dev/vda"
         cpuset: "0-1,6-7"
         nodeNetwork:
           interfaces:
