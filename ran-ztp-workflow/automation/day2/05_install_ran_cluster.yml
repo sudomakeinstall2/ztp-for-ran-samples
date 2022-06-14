@@ -5,9 +5,9 @@
   vars:
     bmc_username: ADMIN
     bmc_password: ADMIN
-    gitops_source_path_site: siteconfig
-    gitops_source_path_pgt: policygentemplates
-    gitops_source_repoURL: https://github.com/leo8a/ztp-for-ran-samples
+    gitops_source_path_site: ran-ztp-workflow/automation/day2/siteconfig
+    gitops_source_path_pgt: ran-ztp-workflow/automation/day2/policygentemplates
+    gitops_source_repoURL: https://github.com/sudomakeinstall2/ztp-for-ran-samples
     gitops_source_targetRevision: sushy-siteconfig
 
   tasks:
